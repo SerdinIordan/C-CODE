@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "AllCourses";
+    Layout = "~/Views/Shared/_LayoutStudent.cshtml";
+}
+
+<h2>AllCourses</h2>
+@model IList<LicProiectMVC.Models.Course>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("Nume", "AllCourses", new { sortOrder = ViewBag.NameSortParm })
+        </th>
+        @*<th>Nume</th>*@
+        <th>Actiuni</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+
+
+        <tr>
+            @*<td>@Html.DisplayFor(modelItem => item.Name)</td>*@
+            <td>@Html.ActionLink(item.Name, "CourseDetail", new { courseID = item.CourseId })</td>
+            <td>
+                @if (item.RequestEnrollmentButton == 1)
+                {
+                    //@Html.ActionLink("Solicita Inscriere", "Edit", new { id = item.CourseId })
+                    @Html.ActionLink("Solicita Inscriere", "ActionRequestEnrollment", new { courseID = item.CourseId })
+                }
+                else if (item.RequestEnrollmentButton == 0)
+                {
+                    <input type="button" value="Solicita Inscriere" disabled />
+                }
+                else if (item.RequestEnrollmentButton == -1)
+                {
+                    @Html.Label("Inscris");
+                }
+            </td>
+        </tr>
+    }
+</table>
+
+
+

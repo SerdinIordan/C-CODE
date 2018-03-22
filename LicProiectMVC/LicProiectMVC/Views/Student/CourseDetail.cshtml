@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "CourseDetail";
+    Layout = "~/Views/Shared/_LayoutStudent.cshtml";
+}
+
+<h2>CourseDetail</h2>
+
+@model  LicProiectMVC.Models.Course
+
+<div>@Html.DisplayFor(item => Model.Name) </div>
+<div>@Html.DisplayFor(item => Model.Year) </div>
+<div>@Html.DisplayFor(item => Model.Semester) </div>
+
+<div>
+    @Html.DisplayNameFor(item => Model.MinimumAttendanceCourse)
+@Html.DisplayFor(item => Model.MinimumAttendanceCourse)
+</div>
+
+<div>
+    @Html.DisplayNameFor(item => Model.MinimumAttendanceLab)
+@Html.DisplayFor(item => Model.MinimumAttendanceLab)
+</div>
+
+<div>
+    @Html.DisplayNameFor(item => Model.MinimumAttendanceSeminar)
+@Html.DisplayFor(item => Model.MinimumAttendanceSeminar)
+</div>
+<div>
+    @if (Model.RequestEnrollmentButton == 1)
+    {
+        //@Html.ActionLink("Solicita Inscriere", "Edit", new { id = item.CourseId })
+        @Html.ActionLink("Solicita Inscriere", "ActionRequestEnrollment", new { courseID = Model.CourseId })
+    }
+    else if (Model.RequestEnrollmentButton == 0)
+    {
+        <input type="button" value="Solicita Inscriere" disabled />
+    }
+    else if (Model.RequestEnrollmentButton == -1)
+    {
+        @Html.Label("Inscris");
+    }
+</div>

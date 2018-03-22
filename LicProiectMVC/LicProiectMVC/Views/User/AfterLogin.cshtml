@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "AfterLogin";
+}
+
+<h2>AfterLogin</h2>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (Session["log"] != null && Session["typeEntity"] != null && Session["typeEntity"].Equals("student"))
+
+
+{<text>
+        Welcome @Session["log"].ToString()
+</text>
+<ul class="nav navbar-nav">
+    <li>@Html.ActionLink("Personal Information", "MyPersonalDataInformation", "Student")</li>
+    <li>@Html.ActionLink("About", "About", "Student")</li>
+    <li>@Html.ActionLink("Contact", "Contact", "Student")</li>
+</ul>
+
+}
+

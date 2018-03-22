@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "MyStudentCourses";
+    Layout = "~/Views/Shared/_LayoutStudent.cshtml";
+}
+
+<h2>MyStudentCourses</h2>
+@model IEnumerable<LicProiectMVC.Models.StudentCourse>
+
+@foreach (var studentCourse in Model)
+{
+    <h2>MyCourses</h2>
+    <h3>Curs: @studentCourse.Course.Name</h3>
+    <h3>Prezente la curs: @studentCourse.AttendanceStudentCourse </h3>
+    <h3>Prezente la laborator: @studentCourse.AttendanceStudentLab </h3>
+    <h3>Prezente la seminar: @studentCourse.AttendanceStudentSeminar</h3>
+}
+
+
