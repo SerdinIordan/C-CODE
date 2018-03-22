@@ -1,0 +1,28 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutOperator.cshtml";
+}
+
+@{
+    ViewBag.Title = "Result";
+}
+
+<h2>Result</h2>
+<div>
+    @if (ViewBag.MessageAcceptRequest != null)
+            {
+        @ViewBag.MessageAcceptRequest;
+            }
+</div>
+<div>
+    @if (ViewBag.MessageRejectRequest != null)
+            {
+        @ViewBag.MessageRejectRequest;
+            }
+</div>
+<div>
+    @if (ViewBag.MessageSuccessAddSolicitant != null)
+            {
+        @ViewBag.MessageSuccessAddSolicitant;
+            }
+</div>
+

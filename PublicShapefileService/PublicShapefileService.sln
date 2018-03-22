@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicShapefileService", "PublicShapefileService\PublicShapefileService.csproj", "{00548B32-30BA-4A24-B96D-93F19DB74AC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicShapefileService.DataLayer", "PublicShapefileService.DataLayer\PublicShapefileService.DataLayer.csproj", "{0D0696B4-0EF4-4B35-BE95-31E97006A77D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicShapefileService.EmailClient", "PublicShapefileService.EmailClient\PublicShapefileService.EmailClient.csproj", "{73C39B2A-1BB1-4D36-8FA6-46E5FBD8211E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicShapefileService.BusinessLogic", "PublicShapefileService.BusinessLogic\PublicShapefileService.BusinessLogic.csproj", "{0616D808-138B-480B-8234-187972B94BBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicShapefileService.Common", "PublicShapefileService.Common\PublicShapefileService.Common.csproj", "{DC584D6C-2DD9-480D-B06D-BF9E10700B18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicShapefileService.Tests", "PublicShapefileService.Tests\PublicShapefileService.Tests.csproj", "{A31566D3-A318-45FF-8B30-C432DCDB3853}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00548B32-30BA-4A24-B96D-93F19DB74AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00548B32-30BA-4A24-B96D-93F19DB74AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00548B32-30BA-4A24-B96D-93F19DB74AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00548B32-30BA-4A24-B96D-93F19DB74AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D0696B4-0EF4-4B35-BE95-31E97006A77D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0696B4-0EF4-4B35-BE95-31E97006A77D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0696B4-0EF4-4B35-BE95-31E97006A77D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0696B4-0EF4-4B35-BE95-31E97006A77D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C39B2A-1BB1-4D36-8FA6-46E5FBD8211E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C39B2A-1BB1-4D36-8FA6-46E5FBD8211E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C39B2A-1BB1-4D36-8FA6-46E5FBD8211E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C39B2A-1BB1-4D36-8FA6-46E5FBD8211E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0616D808-138B-480B-8234-187972B94BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0616D808-138B-480B-8234-187972B94BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0616D808-138B-480B-8234-187972B94BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0616D808-138B-480B-8234-187972B94BBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC584D6C-2DD9-480D-B06D-BF9E10700B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC584D6C-2DD9-480D-B06D-BF9E10700B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC584D6C-2DD9-480D-B06D-BF9E10700B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC584D6C-2DD9-480D-B06D-BF9E10700B18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31566D3-A318-45FF-8B30-C432DCDB3853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31566D3-A318-45FF-8B30-C432DCDB3853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31566D3-A318-45FF-8B30-C432DCDB3853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31566D3-A318-45FF-8B30-C432DCDB3853}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3D2C223-D378-48C7-9108-96C9073B6AEF}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PublicShapefileService\\PublicShapefileService.csproj
+		SccProjectName1 = PublicShapefileService
+		SccLocalPath1 = PublicShapefileService
+		SccProjectUniqueName2 = PublicShapefileService.DataLayer\\PublicShapefileService.DataLayer.csproj
+		SccProjectName2 = PublicShapefileService.DataLayer
+		SccLocalPath2 = PublicShapefileService.DataLayer
+		SccProjectUniqueName3 = PublicShapefileService.EmailClient\\PublicShapefileService.EmailClient.csproj
+		SccProjectName3 = PublicShapefileService.EmailClient
+		SccLocalPath3 = PublicShapefileService.EmailClient
+		SccProjectUniqueName4 = PublicShapefileService.BusinessLogic\\PublicShapefileService.BusinessLogic.csproj
+		SccProjectName4 = PublicShapefileService.BusinessLogic
+		SccLocalPath4 = PublicShapefileService.BusinessLogic
+		SccProjectUniqueName5 = PublicShapefileService.Common\\PublicShapefileService.Common.csproj
+		SccProjectName5 = PublicShapefileService.Common
+		SccLocalPath5 = PublicShapefileService.Common
+		SccProjectUniqueName6 = PublicShapefileService.Tests\\PublicShapefileService.Tests.csproj
+		SccProjectName6 = PublicShapefileService.Tests
+		SccLocalPath6 = PublicShapefileService.Tests
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.EmailClient\bin\Debug\PublicShapefileService.EmailClient.dll.config
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.EmailClient\bin\Debug\PublicShapefileService.EmailClient.dll
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.EmailClient\bin\Debug\PublicShapefileService.EmailClient.pdb
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.EmailClient\bin\Debug\Autofac.dll
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.EmailClient\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.EmailClient\bin\Debug\PublicShapefileService.Common.dll
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.EmailClient\bin\Debug\PublicShapefileService.Common.pdb
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.EmailClient\bin\Debug\PublicShapefileService.Common.dll.config
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.EmailClient\bin\Debug\Autofac.xml
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.EmailClient\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.EmailClient\obj\Debug\PublicShapefileService.EmailClient.csprojResolveAssemblyReference.cache
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.EmailClient\obj\Debug\PublicShapefileService.EmailClient.csproj.CoreCompileInputs.cache
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.EmailClient\obj\Debug\PublicShapefileService.EmailClient.dll
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.EmailClient\obj\Debug\PublicShapefileService.EmailClient.pdb

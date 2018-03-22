@@ -1,0 +1,71 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_LayoutOperator.cshtml";
+}
+
+@{
+    ViewBag.Title = "Operator";
+}
+@model  PublicShapefileService.Models.ShapefileRequest
+
+<div class="Container">
+    <div align="center" class="OperatorContainerDetails">
+    <h2>Detalii Solicitant</h2>
+
+    <div class="row" id="TextLine" >
+        <div class="col-sm-4"><b>Nume Solicitant:</b> </div>
+        <div class="col-sm-8"> @Model.SolicitantName </div>
+    </div>
+
+    <div class="row" id="TextLine">
+        <div class="col-sm-4"><b>CUI(Cod Unic de inregistrare):</b> </div>
+        <div class="col-sm-8"> @Model.CUI </div>
+    </div>
+
+    <div class="row" id="TextLine">
+        <div class="col-sm-4"><b>Email:</b> </div>        
+        <div class="col-sm-8"> @Model.SolicitantEmail </div>
+    </div>
+
+    <div class="row" id="TextLine">
+        <div class="col-sm-4"><b>Zona de interes:</b> </div>
+        <div class="col-sm-8"> @Model.InterestArea </div>
+    </div>
+
+    <div class="row" id="TextLine">
+        <div class="col-sm-4" style="margin-top:70px;"><b>Detalii cerere:</b> </div>
+        <div class="col-sm-8"> <input class="DetailsOperator" type="text" value="@Model.RequestDetails" readonly/></div>
+    </div>
+
+    </div>
+    <br><br>
+    <hr>
+    @*@using (Html.BeginForm(null,"Operator"))*@
+    @using (Html.BeginForm(null,"Operator",FormMethod.Post))
+    {
+
+        <fieldset class="FieldSet">
+            <div><b>
+                Nume Operator:
+                </b>
+            </div>
+            <div>
+                @Html.TextBoxFor(model => model.OperatorResolution.OperatorName, new { @class = "InputField" })
+            </div>
+
+            <div>
+                <div> <b> Detalii Respingere: </b> </div>
+                <div> <b><font color="#ff0000"> (Se completeaza numai daca cererea va fi respinsa!!) </font> </b> </div>
+            </div>
+            <div>
+                @Html.TextAreaFor(m => m.OperatorResolution.ResolutionDetails, new { @class = "DetailsOperator" })
+                @Html.ValidationMessageFor(m => m.OperatorResolution.ResolutionDetails)
+            </div>
+            <input type="hidden" name="OperatorResolution.ShapeFileRequestId" value="@Model.ShapefileRequestId" />
+            <input type="submit" value="Accepta" class="AcceptRequest" onclick="AcceptRequest(this,event);" />
+            <input type="submit" value="Respinge"  class="RejectRequest" onclick="RejectRequest(this, event);" />
+
+        </fieldset>
+
+     }
+</div>

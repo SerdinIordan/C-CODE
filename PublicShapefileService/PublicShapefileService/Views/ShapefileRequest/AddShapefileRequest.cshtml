@@ -1,0 +1,85 @@
+﻿@{
+    ViewBag.Title = "AddSolicitant";
+}
+
+@using CaptchaMvc.HtmlHelpers;
+@using CaptchaMvc;
+@model  PublicShapefileService.Models.ShapefileRequest
+
+<h2 style="text-align:center">Adauga  Solicitant</h2>
+
+
+
+@using (Html.BeginForm("AddShapefileRequest", "ShapefileRequest", FormMethod.Post))
+{
+
+ <div class="Container">  
+    
+    <fieldset class="FieldSet">
+        <div>
+            <label for="NumeSolicitant">Nume Solicitant:</label>
+            <div>
+            @Html.TextBoxFor(m => m.SolicitantName, new { @class = "InputField" })
+                <br>
+            @Html.ValidationMessageFor(m => m.SolicitantName)
+            </div>
+        </div>
+        <div>
+            <label for="CUI">Cod unic de Inregistrare:</label>
+            <div>
+            @Html.TextBoxFor(m => m.CUI, new { @class = "InputField" })
+                <br>
+            @Html.ValidationMessageFor(m=>m.CUI)
+            </div>
+        </div>
+
+        <div>
+            <label for="ZonaDeInteres">Zona de Interes:</label>
+            <div>
+            @Html.TextBoxFor(m => m.InterestArea, new { @class = "InputField" })
+                <br>
+            @Html.ValidationMessageFor(m=>m.InterestArea)
+            </div>
+        </div>
+
+
+        <div>
+            <label for="EmailSolicitant">Email Solicitant:</label>
+            <div>
+            @Html.TextBoxFor(m => m.SolicitantEmail, new { @class = "InputField" })
+                <br>
+            @Html.ValidationMessageFor(m=>m.SolicitantEmail)
+            </div>
+        </div>
+        <div>
+            <label for="DetaliiCerere">Detalii Cerere:</label>
+            <div>
+            @Html.TextAreaFor(m => m.RequestDetails, new { @class = "DetailsRequest" })
+                <br>
+            @Html.ValidationMessageFor(m=>m.RequestDetails)
+            </div>
+        </div>
+        <div>
+            @if (ViewBag.MessageManipulariJavaScript != null)
+            {
+               @ViewBag.MessageManipulariJavaScript;
+            }
+            
+        </div>
+        <div>
+
+            @Html.MathCaptcha()
+            <div>  @ViewBag.ErrMessageCaptcha </div>
+
+            @*@Html.Captcha(3)*@
+        </div>
+        <br><br>
+        <div>
+            <label>&nbsp;</label>
+            <input type="submit" value="Adauga Solicitant" class="SubmitCerere" />
+        </div>
+    </fieldset>
+
+
+</div>
+}

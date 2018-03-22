@@ -1,0 +1,10 @@
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.Common\bin\Debug\PublicShapefileService.Common.dll.config
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.Common\bin\Debug\PublicShapefileService.Common.dll
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.Common\bin\Debug\PublicShapefileService.Common.pdb
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.Common\bin\Debug\Autofac.dll
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.Common\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.Common\bin\Debug\Autofac.xml
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.Common\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.Common\obj\Debug\PublicShapefileService.Common.csproj.CoreCompileInputs.cache
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.Common\obj\Debug\PublicShapefileService.Common.dll
+C:\Projects\WIMS\4.Dev\TRUNK\PublicShapefileService\PublicShapefileService\PublicShapefileService.Common\obj\Debug\PublicShapefileService.Common.pdb
