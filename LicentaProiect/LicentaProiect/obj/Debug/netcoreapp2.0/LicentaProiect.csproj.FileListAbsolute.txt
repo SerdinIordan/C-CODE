@@ -1,0 +1,11 @@
+c:\users\serbin\source\repos\LicentaProiect\LicentaProiect\bin\Debug\netcoreapp2.0\LicentaProiect.deps.json
+c:\users\serbin\source\repos\LicentaProiect\LicentaProiect\bin\Debug\netcoreapp2.0\LicentaProiect.runtimeconfig.json
+c:\users\serbin\source\repos\LicentaProiect\LicentaProiect\bin\Debug\netcoreapp2.0\LicentaProiect.runtimeconfig.dev.json
+c:\users\serbin\source\repos\LicentaProiect\LicentaProiect\bin\Debug\netcoreapp2.0\LicentaProiect.dll
+c:\users\serbin\source\repos\LicentaProiect\LicentaProiect\obj\Debug\netcoreapp2.0\LicentaProiect.csprojResolveAssemblyReference.cache
+c:\users\serbin\source\repos\LicentaProiect\LicentaProiect\obj\Debug\netcoreapp2.0\LicentaProiect.csproj.CoreCompileInputs.cache
+c:\users\serbin\source\repos\LicentaProiect\LicentaProiect\obj\Debug\netcoreapp2.0\LicentaProiect.AssemblyInfoInputs.cache
+c:\users\serbin\source\repos\LicentaProiect\LicentaProiect\obj\Debug\netcoreapp2.0\LicentaProiect.AssemblyInfo.cs
+c:\users\serbin\source\repos\LicentaProiect\LicentaProiect\bin\Debug\netcoreapp2.0\LicentaProiect.pdb
+c:\users\serbin\source\repos\LicentaProiect\LicentaProiect\obj\Debug\netcoreapp2.0\LicentaProiect.dll
+c:\users\serbin\source\repos\LicentaProiect\LicentaProiect\obj\Debug\netcoreapp2.0\LicentaProiect.pdb
