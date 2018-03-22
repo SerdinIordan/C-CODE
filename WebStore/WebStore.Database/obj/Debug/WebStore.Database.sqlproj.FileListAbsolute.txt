@@ -1,0 +1,5 @@
+D:\Proiecte\WebStore\WebStore\WebStore.Database\bin\Debug\WebStore.Database.dacpac
+D:\Proiecte\WebStore\WebStore\WebStore.Database\bin\Debug\WebStore.Database.dll
+D:\Proiecte\WebStore\WebStore\WebStore.Database\bin\Debug\WebStore.Database.pdb
+D:\Proiecte\WebStore\WebStore\WebStore.Database\obj\Debug\WebStore.Database.dll
+D:\Proiecte\WebStore\WebStore\WebStore.Database\obj\Debug\WebStore.Database.pdb

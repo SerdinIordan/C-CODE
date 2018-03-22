@@ -1,0 +1,11 @@
+D:\Proiecte\WebStore\WebStore\WebStore.Business\bin\Debug\WebStore.Business.dll
+D:\Proiecte\WebStore\WebStore\WebStore.Business\bin\Debug\WebStore.Business.pdb
+D:\Proiecte\WebStore\WebStore\WebStore.Business\bin\Debug\WebStore.Common.dll
+D:\Proiecte\WebStore\WebStore\WebStore.Business\bin\Debug\WebStore.Common.pdb
+D:\Proiecte\WebStore\WebStore\WebStore.Business\obj\Debug\WebStore.Business.csprojResolveAssemblyReference.cache
+D:\Proiecte\WebStore\WebStore\WebStore.Business\obj\Debug\WebStore.Business.dll
+D:\Proiecte\WebStore\WebStore\WebStore.Business\obj\Debug\WebStore.Business.pdb
+D:\Proiecte\WebStore\WebStore\WebStore.Business\bin\Debug\NHibernate.dll
+D:\Proiecte\WebStore\WebStore\WebStore.Business\bin\Debug\NHibernate.xml
+D:\Proiecte\WebStore\WebStore\WebStore.Business\bin\Debug\Iesi.Collections.dll
+D:\Proiecte\WebStore\WebStore\WebStore.Business\bin\Debug\Iesi.Collections.xml
